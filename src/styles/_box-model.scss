@@ -1,3 +1,5 @@
+//padding
+
 .sm-padding-bottom{
     padding-bottom: $sm;
 }
@@ -6,11 +8,18 @@
     padding-bottom: $md;
 }
 
+
+//margin
+
 .x-lg-margin-bottom{
     margin-bottom: $x-lg;
 }
 
 .x-lg-margin-top{
     margin-top: $x-lg;
+}
+
+.sm-margin-bottom{
+    margin-bottom: $sm;
 }
 
