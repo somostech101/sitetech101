@@ -1,38 +1,18 @@
+@import 'variables';
+@import 'nav';
+@import 'buttons';
+@import 'box-model';
+
+
 *{
     margin:0;
 }
 
-$sm: 15px;
-$md: 25px;
-$lg: 35px;
 
-nav{
-    width: 90vw;
-    background-color: rgba(0, 0, 0, 0.7);
-    font-family:'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    padding: .8rem 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-div{
-    display: flex;
-    a{
-        color: white;
-        padding: 0 20px 0 0;
-    }
-    a:hover{
-        color: #C2185B;
-    }
-}
-}
-
-.logo-nav{
-    height: 75px;
-}
 
 #hero{
     height: 100vh;
-    background-image: url(/static/media/pexels-photo-1714208.5376e6b5.jpeg);
+    background-image: url('../img/pexels-photo-1714208.jpeg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -51,7 +31,11 @@ div{
     align-items: center;
     text-align: center;
     color: white;
-    padding-top: 20vh;
+    padding-top: 30vh;
+
+    h2, h3{
+        text-shadow: $shadow;
+    }
 }
 
 .title-hero{

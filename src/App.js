@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
 import logo from './img/logo-tech.png'
 import FontAwesome from 'react-fontawesome'
+
 
 
 
@@ -53,36 +53,48 @@ function App() {
   return (
     <div>
 
-
-      <section id="hero">
-
-      <nav>
+<nav>
         <img className="logo-nav" src={logo} alt="logo-tech101" />
         <div>
-          <a>
+          <a href="http://tech101.io/" target="_blank" rel="noopener noreferrer">
             Nosotros
           </a>
-          <a>
+          <a href="http://tech101.io/" target="_blank" rel="noopener noreferrer">
             Reclutamiento
           </a>
-          <a>
+          <a href="http://tech101.io/" target="_blank" rel="noopener noreferrer">
             Contacto
           </a>
         </div>
       </nav>
+      <section id="hero">
+
+      
       <div id="hero-content"> 
-        <h2 className="subtitle-hero">
+        <h2 className="subtitle-hero md-padding-bottom">
           Compartiendo la tecnología
         </h2>
-        <h3 className="title-hero">
+        <h3 className="title-hero md-padding-bottom">
           PARA ROMPER LA BRECHA DIGITAL
         </h3>
-        <button>
+        <button className="button-hero">
           Contactanos
         </button>
         <div>
           <div>
-            <a href="https://www.facebook.com/somostech101" target="_blank">
+            <div>
+              <a href="https://www.facebook.com/somostech101" target="_blank" rel="noopener noreferrer">
+                <FontAwesome
+                  className="super-crazy-colors"
+                  name="facebook"
+                  size="2x"
+                  style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                />
+              </a>
+            </div>
+
+            <div>
+            <a href="https://www.facebook.com/somostech101" target="_blank" rel="noopener noreferrer">
               <FontAwesome
                 className="super-crazy-colors"
                 name="facebook"
@@ -90,22 +102,18 @@ function App() {
                 style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
               />
             </a>
-            <a href="https://www.facebook.com/somostech101" target="_blank">
-              <FontAwesome
-                className="super-crazy-colors"
-                name="facebook"
-                size="2x"
-                style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-              />
-            </a>
-            <a href="https://www.facebook.com/somostech101" target="_blank">
-              <FontAwesome
-                className="super-crazy-colors"
-                name="facebook"
-                size="2x"
-                style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-              />
-            </a>
+            </div>
+            
+            <div>
+              <a href="https://www.facebook.com/somostech101" target="_blank" rel="noopener noreferrer">
+                <FontAwesome
+                  className="super-crazy-colors"
+                  name="facebook"
+                  size="2x"
+                  style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                />
+              </a>
+            </div>
 
           </div>
           <div>
