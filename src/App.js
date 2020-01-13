@@ -81,14 +81,12 @@ function App() {
           Contactanos
         </button>
         <div>
-          <div>
+          <div className="hero-social-icons x-lg-margin-top"> 
             <div>
               <a href="https://www.facebook.com/somostech101" target="_blank" rel="noopener noreferrer">
                 <FontAwesome
-                  className="super-crazy-colors"
                   name="facebook"
                   size="2x"
-                  style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
                 />
               </a>
             </div>
@@ -96,10 +94,8 @@ function App() {
             <div>
             <a href="https://www.facebook.com/somostech101" target="_blank" rel="noopener noreferrer">
               <FontAwesome
-                className="super-crazy-colors"
-                name="facebook"
+                name="instagram"
                 size="2x"
-                style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
               />
             </a>
             </div>
@@ -107,14 +103,27 @@ function App() {
             <div>
               <a href="https://www.facebook.com/somostech101" target="_blank" rel="noopener noreferrer">
                 <FontAwesome
-                  className="super-crazy-colors"
-                  name="facebook"
+                  name="twitter"
                   size="2x"
-                  style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
                 />
               </a>
             </div>
-
+            <div>
+              <a href="https://www.facebook.com/somostech101" target="_blank" rel="noopener noreferrer">
+                <FontAwesome
+                  name="youtube"
+                  size="2x"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/somostech101" target="_blank" rel="noopener noreferrer">
+                <FontAwesome
+                  name="medium"
+                  size="2x"
+                />
+              </a>
+            </div>
           </div>
           <div>
             
