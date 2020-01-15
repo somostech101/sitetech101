@@ -1,8 +1,10 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome'
 import ernestoCharla from './img/talentland-ernesto.jpg'
+import logoNovenoBit from './img/9no.jpg'
 
 import NavComponent from './components/NavComponent';
+import ContactComponent from './components/ContactComponent';
 
 
 
@@ -142,13 +144,13 @@ function App() {
         <div className="center-center full-width">
           <div className="comunity-info">
             <div className="center-center icon-comunity-info sm-margin-bottom">
-                <FontAwesome
-                name="users"
-                size="5x"
-                />  
+              <FontAwesome
+                  name="users"
+                  size="5x"
+              />  
             </div>
             <p className="title-icon-comunity-info sm-margin-bottom">
-              Social Media
+            Social Media
             </p>
             <p className="general-text"> 
               En <b>Tech 101</b> conocemos y usamos las plataformas digitales para una mayor covertura 
@@ -189,6 +191,40 @@ function App() {
         </div>
       </section>
 
+
+      <section className="x-lg-margin-top center-center">
+        <div>
+        <span className="full-width center-center x-lg-margin-bottom x-lg-margin-top">
+          <h2 className="section-title">Aliados</h2>
+        </span>
+
+        <div className="vertical-center full-width">
+          <div className="ally-info">
+
+            <p className="title-icon-comunity-info sm-margin-bottom">
+            </p>
+          </div>
+          <div className="ally-info">
+          <div className="center-center icon-comunity-info sm-margin-bottom">
+              <img src={logoNovenoBit} className="logos-aliados-size"/>
+            </div>
+            <p className="title-icon-comunity-info sm-margin-bottom">
+              Racoons
+            </p>
+          </div>
+          <div className="ally-info">
+          <div className="center-center icon-comunity-info sm-margin-bottom">
+              <img src={logoNovenoBit} className="logos-aliados-size"/>
+            </div>
+          <p className="title-icon-comunity-info sm-margin-bottom">
+            GDG UNAM
+          </p>
+        </div>
+        </div>
+        </div>
+      </section>
+
+      <ContactComponent/>
 
 
 

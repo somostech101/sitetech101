@@ -8,6 +8,10 @@
     padding-bottom: $md;
 }
 
+.md-padding-top{
+    padding-top: $md;
+}
+
 
 //margin
 
@@ -23,3 +27,13 @@
     margin-bottom: $sm;
 }
 
+
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+
+
+.padding-r-l{
+    padding: 0 3rem;
+}
